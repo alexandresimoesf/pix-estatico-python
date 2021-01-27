@@ -9,7 +9,7 @@ if __name__ == '__main__':
         .set_merchant_name('Alexandre Augusto Simoes ')\
         .set_merchant_city('SAO PAULO')\
         .set_amount(10.00)\
-        .set_txid('enginner')
+        .set_txid('engineer')
 
     img = qrcode.make(pix.get_payload())
     img.save('localNoseuPc')
